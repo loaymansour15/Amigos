@@ -7,14 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2212EAEBC99C8F24595317FF /* Pods_AmigosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6BFE5069719DB529771F76 /* Pods_AmigosTests.framework */; };
+		57E7CB7C59AB82113D157576 /* Pods_Amigos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1678746D1995092A6F80A2FE /* Pods_Amigos.framework */; };
+		92934946B38C44CDF162F602 /* Pods_AmigosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37397C066A61569F0D4AB3C4 /* Pods_AmigosUITests.framework */; };
+		C64C139F22C430F100E62FA7 /* RoundedUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64C139E22C430F100E62FA7 /* RoundedUIImage.swift */; };
+		C65F888F22C484F4002C134B /* HomeStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65F888E22C484F4002C134B /* HomeStoryCollectionViewCell.swift */; };
 		C678F92322C333F8005F5CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F92222C333F8005F5CF0 /* AppDelegate.swift */; };
-		C678F92522C333F8005F5CF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F92422C333F8005F5CF0 /* ViewController.swift */; };
+		C678F92522C333F8005F5CF0 /* StartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F92422C333F8005F5CF0 /* StartPageViewController.swift */; };
 		C678F92822C333F8005F5CF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C678F92622C333F8005F5CF0 /* Main.storyboard */; };
 		C678F92B22C333F8005F5CF0 /* Amigos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C678F92922C333F8005F5CF0 /* Amigos.xcdatamodeld */; };
 		C678F92D22C333F9005F5CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C678F92C22C333F9005F5CF0 /* Assets.xcassets */; };
 		C678F93022C333F9005F5CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C678F92E22C333F9005F5CF0 /* LaunchScreen.storyboard */; };
 		C678F93B22C333F9005F5CF0 /* AmigosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F93A22C333F9005F5CF0 /* AmigosTests.swift */; };
 		C678F94622C333F9005F5CF0 /* AmigosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F94522C333F9005F5CF0 /* AmigosUITests.swift */; };
+		C678F95A22C347E8005F5CF0 /* RoundedGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F95922C347E8005F5CF0 /* RoundedGradientButton.swift */; };
+		C678F95C22C35286005F5CF0 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F95B22C35286005F5CF0 /* RoundedView.swift */; };
+		C678F95E22C357F2005F5CF0 /* UIControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F95D22C357F2005F5CF0 /* UIControllerExtension.swift */; };
+		C678F96022C358EA005F5CF0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F95F22C358EA005F5CF0 /* LoginViewController.swift */; };
+		C678F96222C35900005F5CF0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F96122C35900005F5CF0 /* SignUpViewController.swift */; };
+		C678F96422C35D0E005F5CF0 /* UIStoryBoardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F96322C35D0E005F5CF0 /* UIStoryBoardExtension.swift */; };
+		C678F96622C37FC4005F5CF0 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F96522C37FC4005F5CF0 /* ForgotPasswordViewController.swift */; };
+		C678F96822C385D6005F5CF0 /* RoundedColoredTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F96722C385D6005F5CF0 /* RoundedColoredTextField.swift */; };
+		C6842C7122CA4B3D00766E2A /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6842C7022CA4B3D00766E2A /* FriendsViewController.swift */; };
+		C6842C7322CA4B7600766E2A /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6842C7222CA4B7600766E2A /* FriendsTableViewCell.swift */; };
+		C69AE25522C394A6008A50CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C69AE25422C394A6008A50CF /* GoogleService-Info.plist */; };
+		C6AE0DD722C92BE40024C47D /* HomeAddStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE0DD622C92BE40024C47D /* HomeAddStoryCollectionViewCell.swift */; };
+		C6B73AB822C5D6CF002C68B0 /* HomeTopButtonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B73AB722C5D6CF002C68B0 /* HomeTopButtonsTableViewCell.swift */; };
+		C6B73ABA22C5D9E8002C68B0 /* HomeCustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B73AB922C5D9E8002C68B0 /* HomeCustomCollectionViewCell.swift */; };
+		C6B73ABC22C5DF60002C68B0 /* HomeSearchbarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B73ABB22C5DF60002C68B0 /* HomeSearchbarTableViewCell.swift */; };
+		C6D7E88322C3A0EE006BF469 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D7E88222C3A0EE006BF469 /* HomeViewController.swift */; };
+		C6D7E88522C3B9CF006BF469 /* SearchBarViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D7E88422C3B9CF006BF469 /* SearchBarViewStyle.swift */; };
+		C6DE49EC22C4B4000051E701 /* HomePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE49EB22C4B4000051E701 /* HomePostTableViewCell.swift */; };
+		C6DE49EE22C4B4BC0051E701 /* ShadowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE49ED22C4B4BC0051E701 /* ShadowTableViewCell.swift */; };
+		C6DF49E822C8FB7D0063DB36 /* MessegesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF49E722C8FB7D0063DB36 /* MessegesViewController.swift */; };
+		C6DF49EA22C8FE7D0063DB36 /* MessagesCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF49E922C8FE7D0063DB36 /* MessagesCollectionTableViewCell.swift */; };
+		C6DF49EC22C8FF3D0063DB36 /* MessagesOnlineUsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF49EB22C8FF3D0063DB36 /* MessagesOnlineUsersTableViewCell.swift */; };
+		C6DF49EE22C905740063DB36 /* MessagesContextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF49ED22C905740063DB36 /* MessagesContextTableViewCell.swift */; };
+		C6DF49F022C9177C0063DB36 /* MessegaesAddNewMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF49EF22C9177C0063DB36 /* MessegaesAddNewMessageCollectionViewCell.swift */; };
+		C6E7F08622C4FA3A009344FB /* RadiusUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E7F08522C4FA3A009344FB /* RadiusUIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +65,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1678746D1995092A6F80A2FE /* Pods_Amigos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amigos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A0B33CB1B912A4E0CCDBAD /* Pods-Amigos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amigos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amigos/Pods-Amigos.debug.xcconfig"; sourceTree = "<group>"; };
+		2F9AC27792458CEEBC55454D /* Pods-AmigosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmigosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmigosUITests/Pods-AmigosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37397C066A61569F0D4AB3C4 /* Pods_AmigosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmigosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6BFE5069719DB529771F76 /* Pods_AmigosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmigosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8C2900C7D4411166EE3EB7 /* Pods-AmigosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmigosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmigosTests/Pods-AmigosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91E72E01176F6E3DF96E7295 /* Pods-AmigosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmigosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmigosUITests/Pods-AmigosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9968A3D0DB63F6F9282C6B0F /* Pods-AmigosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmigosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmigosTests/Pods-AmigosTests.release.xcconfig"; sourceTree = "<group>"; };
+		B94F89B6B81D2AADAC734E32 /* Pods-Amigos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amigos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amigos/Pods-Amigos.release.xcconfig"; sourceTree = "<group>"; };
+		C64C139E22C430F100E62FA7 /* RoundedUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedUIImage.swift; sourceTree = "<group>"; };
+		C65F888E22C484F4002C134B /* HomeStoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		C678F91F22C333F8005F5CF0 /* Amigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amigos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C678F92222C333F8005F5CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C678F92422C333F8005F5CF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C678F92422C333F8005F5CF0 /* StartPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageViewController.swift; sourceTree = "<group>"; };
 		C678F92722C333F8005F5CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C678F92A22C333F8005F5CF0 /* Amigos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Amigos.xcdatamodel; sourceTree = "<group>"; };
 		C678F92C22C333F9005F5CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +90,31 @@
 		C678F94122C333F9005F5CF0 /* AmigosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmigosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C678F94522C333F9005F5CF0 /* AmigosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmigosUITests.swift; sourceTree = "<group>"; };
 		C678F94722C333F9005F5CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C678F95922C347E8005F5CF0 /* RoundedGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedGradientButton.swift; sourceTree = "<group>"; };
+		C678F95B22C35286005F5CF0 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		C678F95D22C357F2005F5CF0 /* UIControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControllerExtension.swift; sourceTree = "<group>"; };
+		C678F95F22C358EA005F5CF0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C678F96122C35900005F5CF0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C678F96322C35D0E005F5CF0 /* UIStoryBoardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryBoardExtension.swift; sourceTree = "<group>"; };
+		C678F96522C37FC4005F5CF0 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		C678F96722C385D6005F5CF0 /* RoundedColoredTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedColoredTextField.swift; sourceTree = "<group>"; };
+		C6842C7022CA4B3D00766E2A /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		C6842C7222CA4B7600766E2A /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		C69AE25422C394A6008A50CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6AE0DD622C92BE40024C47D /* HomeAddStoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAddStoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6B73AB722C5D6CF002C68B0 /* HomeTopButtonsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopButtonsTableViewCell.swift; sourceTree = "<group>"; };
+		C6B73AB922C5D9E8002C68B0 /* HomeCustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6B73ABB22C5DF60002C68B0 /* HomeSearchbarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchbarTableViewCell.swift; sourceTree = "<group>"; };
+		C6D7E88222C3A0EE006BF469 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C6D7E88422C3B9CF006BF469 /* SearchBarViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewStyle.swift; sourceTree = "<group>"; };
+		C6DE49EB22C4B4000051E701 /* HomePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostTableViewCell.swift; sourceTree = "<group>"; };
+		C6DE49ED22C4B4BC0051E701 /* ShadowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowTableViewCell.swift; sourceTree = "<group>"; };
+		C6DF49E722C8FB7D0063DB36 /* MessegesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessegesViewController.swift; sourceTree = "<group>"; };
+		C6DF49E922C8FE7D0063DB36 /* MessagesCollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		C6DF49EB22C8FF3D0063DB36 /* MessagesOnlineUsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesOnlineUsersTableViewCell.swift; sourceTree = "<group>"; };
+		C6DF49ED22C905740063DB36 /* MessagesContextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesContextTableViewCell.swift; sourceTree = "<group>"; };
+		C6DF49EF22C9177C0063DB36 /* MessegaesAddNewMessageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessegaesAddNewMessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6E7F08522C4FA3A009344FB /* RadiusUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusUIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E7CB7C59AB82113D157576 /* Pods_Amigos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2212EAEBC99C8F24595317FF /* Pods_AmigosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +138,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92934946B38C44CDF162F602 /* Pods_AmigosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		505AD2F5C9F09604FE075AD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25A0B33CB1B912A4E0CCDBAD /* Pods-Amigos.debug.xcconfig */,
+				B94F89B6B81D2AADAC734E32 /* Pods-Amigos.release.xcconfig */,
+				3B8C2900C7D4411166EE3EB7 /* Pods-AmigosTests.debug.xcconfig */,
+				9968A3D0DB63F6F9282C6B0F /* Pods-AmigosTests.release.xcconfig */,
+				2F9AC27792458CEEBC55454D /* Pods-AmigosUITests.debug.xcconfig */,
+				91E72E01176F6E3DF96E7295 /* Pods-AmigosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2BFB5A9927DFAFBE6B6D465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1678746D1995092A6F80A2FE /* Pods_Amigos.framework */,
+				3A6BFE5069719DB529771F76 /* Pods_AmigosTests.framework */,
+				37397C066A61569F0D4AB3C4 /* Pods_AmigosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C678F91622C333F8005F5CF0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +175,8 @@
 				C678F93922C333F9005F5CF0 /* AmigosTests */,
 				C678F94422C333F9005F5CF0 /* AmigosUITests */,
 				C678F92022C333F8005F5CF0 /* Products */,
+				505AD2F5C9F09604FE075AD4 /* Pods */,
+				A2BFB5A9927DFAFBE6B6D465 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +193,16 @@
 		C678F92122C333F8005F5CF0 /* Amigos */ = {
 			isa = PBXGroup;
 			children = (
-				C678F92222C333F8005F5CF0 /* AppDelegate.swift */,
-				C678F92422C333F8005F5CF0 /* ViewController.swift */,
 				C678F92622C333F8005F5CF0 /* Main.storyboard */,
-				C678F92C22C333F9005F5CF0 /* Assets.xcassets */,
-				C678F92E22C333F9005F5CF0 /* LaunchScreen.storyboard */,
+				C678F95422C33458005F5CF0 /* Controllers */,
+				C678F95522C33468005F5CF0 /* Models */,
+				C678F95822C334B0005F5CF0 /* Extensions */,
+				C6842C7422CA4E9800766E2A /* View Cells */,
+				C678F95622C33477005F5CF0 /* Views */,
+				C678F95722C3348E005F5CF0 /* Services */,
+				C678F95322C33442005F5CF0 /* Supporting Files */,
 				C678F93122C333F9005F5CF0 /* Info.plist */,
+				C69AE25422C394A6008A50CF /* GoogleService-Info.plist */,
 				C678F92922C333F8005F5CF0 /* Amigos.xcdatamodeld */,
 			);
 			path = Amigos;
@@ -128,6 +226,85 @@
 			path = AmigosUITests;
 			sourceTree = "<group>";
 		};
+		C678F95322C33442005F5CF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C678F92222C333F8005F5CF0 /* AppDelegate.swift */,
+				C678F92C22C333F9005F5CF0 /* Assets.xcassets */,
+				C678F92E22C333F9005F5CF0 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C678F95422C33458005F5CF0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C678F92422C333F8005F5CF0 /* StartPageViewController.swift */,
+				C678F95F22C358EA005F5CF0 /* LoginViewController.swift */,
+				C678F96122C35900005F5CF0 /* SignUpViewController.swift */,
+				C678F96522C37FC4005F5CF0 /* ForgotPasswordViewController.swift */,
+				C6D7E88222C3A0EE006BF469 /* HomeViewController.swift */,
+				C6DF49E722C8FB7D0063DB36 /* MessegesViewController.swift */,
+				C6842C7022CA4B3D00766E2A /* FriendsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C678F95522C33468005F5CF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C678F95622C33477005F5CF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C678F95922C347E8005F5CF0 /* RoundedGradientButton.swift */,
+				C678F95B22C35286005F5CF0 /* RoundedView.swift */,
+				C678F96722C385D6005F5CF0 /* RoundedColoredTextField.swift */,
+				C6D7E88422C3B9CF006BF469 /* SearchBarViewStyle.swift */,
+				C64C139E22C430F100E62FA7 /* RoundedUIImage.swift */,
+				C6E7F08522C4FA3A009344FB /* RadiusUIImageView.swift */,
+				C6DE49ED22C4B4BC0051E701 /* ShadowTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C678F95722C3348E005F5CF0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C678F95822C334B0005F5CF0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C678F95D22C357F2005F5CF0 /* UIControllerExtension.swift */,
+				C678F96322C35D0E005F5CF0 /* UIStoryBoardExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C6842C7422CA4E9800766E2A /* View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C65F888E22C484F4002C134B /* HomeStoryCollectionViewCell.swift */,
+				C6AE0DD622C92BE40024C47D /* HomeAddStoryCollectionViewCell.swift */,
+				C6DE49EB22C4B4000051E701 /* HomePostTableViewCell.swift */,
+				C6B73AB722C5D6CF002C68B0 /* HomeTopButtonsTableViewCell.swift */,
+				C6B73AB922C5D9E8002C68B0 /* HomeCustomCollectionViewCell.swift */,
+				C6B73ABB22C5DF60002C68B0 /* HomeSearchbarTableViewCell.swift */,
+				C6DF49E922C8FE7D0063DB36 /* MessagesCollectionTableViewCell.swift */,
+				C6DF49EB22C8FF3D0063DB36 /* MessagesOnlineUsersTableViewCell.swift */,
+				C6DF49ED22C905740063DB36 /* MessagesContextTableViewCell.swift */,
+				C6DF49EF22C9177C0063DB36 /* MessegaesAddNewMessageCollectionViewCell.swift */,
+				C6842C7222CA4B7600766E2A /* FriendsTableViewCell.swift */,
+			);
+			path = "View Cells";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C678F94A22C333F9005F5CF0 /* Build configuration list for PBXNativeTarget "Amigos" */;
 			buildPhases = (
+				348648B5241D8B1FC0FD62A7 /* [CP] Check Pods Manifest.lock */,
 				C678F91B22C333F8005F5CF0 /* Sources */,
 				C678F91C22C333F8005F5CF0 /* Frameworks */,
 				C678F91D22C333F8005F5CF0 /* Resources */,
+				D1F130AD8AD6895851355B74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +331,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C678F94D22C333F9005F5CF0 /* Build configuration list for PBXNativeTarget "AmigosTests" */;
 			buildPhases = (
+				2DE88C538CC54A691A6083A7 /* [CP] Check Pods Manifest.lock */,
 				C678F93222C333F9005F5CF0 /* Sources */,
 				C678F93322C333F9005F5CF0 /* Frameworks */,
 				C678F93422C333F9005F5CF0 /* Resources */,
@@ -170,6 +350,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C678F95022C333F9005F5CF0 /* Build configuration list for PBXNativeTarget "AmigosUITests" */;
 			buildPhases = (
+				ECD3135B6BA2C849C58C73F3 /* [CP] Check Pods Manifest.lock */,
 				C678F93D22C333F9005F5CF0 /* Sources */,
 				C678F93E22C333F9005F5CF0 /* Frameworks */,
 				C678F93F22C333F9005F5CF0 /* Resources */,
@@ -233,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C678F93022C333F9005F5CF0 /* LaunchScreen.storyboard in Resources */,
+				C69AE25522C394A6008A50CF /* GoogleService-Info.plist in Resources */,
 				C678F92D22C333F9005F5CF0 /* Assets.xcassets in Resources */,
 				C678F92822C333F8005F5CF0 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +436,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DE88C538CC54A691A6083A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmigosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		348648B5241D8B1FC0FD62A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amigos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F130AD8AD6895851355B74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Amigos/Pods-Amigos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amigos/Pods-Amigos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECD3135B6BA2C849C58C73F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmigosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C678F91B22C333F8005F5CF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C678F92522C333F8005F5CF0 /* ViewController.swift in Sources */,
+				C6DF49EA22C8FE7D0063DB36 /* MessagesCollectionTableViewCell.swift in Sources */,
+				C6DF49E822C8FB7D0063DB36 /* MessegesViewController.swift in Sources */,
+				C678F96022C358EA005F5CF0 /* LoginViewController.swift in Sources */,
+				C6B73AB822C5D6CF002C68B0 /* HomeTopButtonsTableViewCell.swift in Sources */,
+				C6842C7122CA4B3D00766E2A /* FriendsViewController.swift in Sources */,
+				C678F92522C333F8005F5CF0 /* StartPageViewController.swift in Sources */,
+				C6E7F08622C4FA3A009344FB /* RadiusUIImageView.swift in Sources */,
+				C678F96222C35900005F5CF0 /* SignUpViewController.swift in Sources */,
+				C678F96822C385D6005F5CF0 /* RoundedColoredTextField.swift in Sources */,
 				C678F92322C333F8005F5CF0 /* AppDelegate.swift in Sources */,
+				C64C139F22C430F100E62FA7 /* RoundedUIImage.swift in Sources */,
+				C678F95C22C35286005F5CF0 /* RoundedView.swift in Sources */,
+				C6DF49EC22C8FF3D0063DB36 /* MessagesOnlineUsersTableViewCell.swift in Sources */,
+				C6842C7322CA4B7600766E2A /* FriendsTableViewCell.swift in Sources */,
+				C678F96422C35D0E005F5CF0 /* UIStoryBoardExtension.swift in Sources */,
+				C6DF49EE22C905740063DB36 /* MessagesContextTableViewCell.swift in Sources */,
+				C6AE0DD722C92BE40024C47D /* HomeAddStoryCollectionViewCell.swift in Sources */,
+				C6DE49EE22C4B4BC0051E701 /* ShadowTableViewCell.swift in Sources */,
+				C6DF49F022C9177C0063DB36 /* MessegaesAddNewMessageCollectionViewCell.swift in Sources */,
+				C6B73ABA22C5D9E8002C68B0 /* HomeCustomCollectionViewCell.swift in Sources */,
+				C6D7E88522C3B9CF006BF469 /* SearchBarViewStyle.swift in Sources */,
+				C6B73ABC22C5DF60002C68B0 /* HomeSearchbarTableViewCell.swift in Sources */,
+				C678F96622C37FC4005F5CF0 /* ForgotPasswordViewController.swift in Sources */,
+				C65F888F22C484F4002C134B /* HomeStoryCollectionViewCell.swift in Sources */,
+				C678F95E22C357F2005F5CF0 /* UIControllerExtension.swift in Sources */,
 				C678F92B22C333F8005F5CF0 /* Amigos.xcdatamodeld in Sources */,
+				C678F95A22C347E8005F5CF0 /* RoundedGradientButton.swift in Sources */,
+				C6DE49EC22C4B4000051E701 /* HomePostTableViewCell.swift in Sources */,
+				C6D7E88322C3A0EE006BF469 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +735,7 @@
 		};
 		C678F94B22C333F9005F5CF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A0B33CB1B912A4E0CCDBAD /* Pods-Amigos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,12 +748,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.loaymansour15.Amigos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C678F94C22C333F9005F5CF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94F89B6B81D2AADAC734E32 /* Pods-Amigos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,12 +767,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.loaymansour15.Amigos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		C678F94E22C333F9005F5CF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8C2900C7D4411166EE3EB7 /* Pods-AmigosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +795,7 @@
 		};
 		C678F94F22C333F9005F5CF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9968A3D0DB63F6F9282C6B0F /* Pods-AmigosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +817,7 @@
 		};
 		C678F95122C333F9005F5CF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9AC27792458CEEBC55454D /* Pods-AmigosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +838,7 @@
 		};
 		C678F95222C333F9005F5CF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E72E01176F6E3DF96E7295 /* Pods-AmigosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
