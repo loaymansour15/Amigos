@@ -39,12 +39,12 @@ class StartPageViewController: UIViewController {
     
     @IBAction func facebookLoginAction(_ sender: Any) {
         
-        
+        goToTabBarAndSetAsRoot()
     }
     
     @IBAction func twitterLoginAction(_ sender: Any) {
         
-        
+        goToTabBarAndSetAsRoot()
     }
     
     private func setUpView() {

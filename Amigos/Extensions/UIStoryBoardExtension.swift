@@ -39,4 +39,20 @@ extension UIStoryboard {
         
         return (getMain().instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController)!
     }
+    
+    func getMessegesViewController() -> MessegesViewController {
+        
+        return (getMain().instantiateViewController(withIdentifier: "MessegesViewController") as? MessegesViewController)!
+    }
+    
+    func getUserChatViewController() -> UserChatViewController {
+        
+        return (getMain().instantiateViewController(withIdentifier: "UserChatViewController") as? UserChatViewController)!
+    }
+    
+    func getChooseChatMembersViewController() -> ChooseChatMembersViewController {
+        
+        return (getMain().instantiateViewController(withIdentifier: "ChooseChatMembersViewController") as? ChooseChatMembersViewController)!
+    }
+    
 }

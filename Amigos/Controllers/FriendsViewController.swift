@@ -31,7 +31,7 @@ class FriendsViewController: UIViewController {
         
     }
 
-}
+}// End Class
 
 extension FriendsViewController: UITableViewDelegate, UITableViewDataSource {
     

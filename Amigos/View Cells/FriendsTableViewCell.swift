@@ -10,8 +10,8 @@ import UIKit
 
 class FriendsTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var imageCell: RoundedUIImage!
-    @IBOutlet weak var nameCell: UILabel!
+    @IBOutlet weak var userImage: RoundedUIImage!
+    @IBOutlet weak var userName: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

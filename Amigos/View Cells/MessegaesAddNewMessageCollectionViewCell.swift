@@ -12,4 +12,10 @@ class MessegaesAddNewMessageCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var addMessage: RoundedUIImage!
     @IBOutlet weak var addMessageLabel: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+    }
+    
 }

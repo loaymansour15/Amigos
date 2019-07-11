@@ -10,8 +10,8 @@ import UIKit
 
 class HomeStoryCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var imageCell: UIImageView!
-    @IBOutlet weak var nameCell: UILabel!
+    @IBOutlet weak var userImage: UIImageView!
+    @IBOutlet weak var userName: UILabel!
     
     override func awakeFromNib() {
         
@@ -20,6 +20,6 @@ class HomeStoryCollectionViewCell: UICollectionViewCell {
     
     func setUp() {
         
-        RoundedUIImage().setUp(image: self.imageCell)
+        RoundedUIImage().setUp(image: self.userImage)
     }
 }

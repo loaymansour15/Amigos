@@ -10,10 +10,10 @@ import UIKit
 
 class MessagesContextTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var imageCell: RoundedUIImage!
-    @IBOutlet weak var nameCell: UILabel!
-    @IBOutlet weak var lastMessageCell: UILabel!
-    @IBOutlet weak var timeCell: UILabel!
+    @IBOutlet weak var userImage: RoundedUIImage!
+    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var lastMessage: UILabel!
+    @IBOutlet weak var timeField: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

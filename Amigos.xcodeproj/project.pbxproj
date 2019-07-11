@@ -12,6 +12,8 @@
 		92934946B38C44CDF162F602 /* Pods_AmigosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37397C066A61569F0D4AB3C4 /* Pods_AmigosUITests.framework */; };
 		C64C139F22C430F100E62FA7 /* RoundedUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64C139E22C430F100E62FA7 /* RoundedUIImage.swift */; };
 		C65F888F22C484F4002C134B /* HomeStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65F888E22C484F4002C134B /* HomeStoryCollectionViewCell.swift */; };
+		C664C98F22D230B400BF598F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C664C98E22D230B400BF598F /* UserModel.swift */; };
+		C664C99122D233B000BF598F /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C664C99022D233B000BF598F /* UIAlertControllerExtension.swift */; };
 		C678F92322C333F8005F5CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F92222C333F8005F5CF0 /* AppDelegate.swift */; };
 		C678F92522C333F8005F5CF0 /* StartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F92422C333F8005F5CF0 /* StartPageViewController.swift */; };
 		C678F92822C333F8005F5CF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C678F92622C333F8005F5CF0 /* Main.storyboard */; };
@@ -30,13 +32,22 @@
 		C678F96822C385D6005F5CF0 /* RoundedColoredTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678F96722C385D6005F5CF0 /* RoundedColoredTextField.swift */; };
 		C6842C7122CA4B3D00766E2A /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6842C7022CA4B3D00766E2A /* FriendsViewController.swift */; };
 		C6842C7322CA4B7600766E2A /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6842C7222CA4B7600766E2A /* FriendsTableViewCell.swift */; };
+		C69351A622D4D43400075AEA /* ChooseChatMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69351A522D4D43400075AEA /* ChooseChatMembersViewController.swift */; };
+		C69351A822D4D5AF00075AEA /* ChooseChatMembersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69351A722D4D5AF00075AEA /* ChooseChatMembersTableViewCell.swift */; };
+		C69351AA22D4FBE600075AEA /* UserFriendsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69351A922D4FBE600075AEA /* UserFriendsModel.swift */; };
 		C69AE25522C394A6008A50CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C69AE25422C394A6008A50CF /* GoogleService-Info.plist */; };
+		C6A522B322CE841200176C21 /* NotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A522B222CE841200176C21 /* NotificationsTableViewCell.swift */; };
+		C6A522B522CE845E00176C21 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A522B422CE845E00176C21 /* NotificationsViewController.swift */; };
 		C6AE0DD722C92BE40024C47D /* HomeAddStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE0DD622C92BE40024C47D /* HomeAddStoryCollectionViewCell.swift */; };
+		C6B595F722D3BD8700E15AB5 /* TextViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B595F622D3BD8700E15AB5 /* TextViewStyle.swift */; };
 		C6B73AB822C5D6CF002C68B0 /* HomeTopButtonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B73AB722C5D6CF002C68B0 /* HomeTopButtonsTableViewCell.swift */; };
 		C6B73ABA22C5D9E8002C68B0 /* HomeCustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B73AB922C5D9E8002C68B0 /* HomeCustomCollectionViewCell.swift */; };
 		C6B73ABC22C5DF60002C68B0 /* HomeSearchbarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B73ABB22C5DF60002C68B0 /* HomeSearchbarTableViewCell.swift */; };
+		C6BD660D22D2CBE800F45285 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BD660C22D2CBE800F45285 /* ChatModel.swift */; };
+		C6BD660F22D2CE0A00F45285 /* UserChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BD660E22D2CE0A00F45285 /* UserChatViewController.swift */; };
 		C6D7E88322C3A0EE006BF469 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D7E88222C3A0EE006BF469 /* HomeViewController.swift */; };
 		C6D7E88522C3B9CF006BF469 /* SearchBarViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D7E88422C3B9CF006BF469 /* SearchBarViewStyle.swift */; };
+		C6DE39D722D2498B00F99403 /* FirebaseRefrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE39D622D2498B00F99403 /* FirebaseRefrences.swift */; };
 		C6DE49EC22C4B4000051E701 /* HomePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE49EB22C4B4000051E701 /* HomePostTableViewCell.swift */; };
 		C6DE49EE22C4B4BC0051E701 /* ShadowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE49ED22C4B4BC0051E701 /* ShadowTableViewCell.swift */; };
 		C6DF49E822C8FB7D0063DB36 /* MessegesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF49E722C8FB7D0063DB36 /* MessegesViewController.swift */; };
@@ -45,6 +56,7 @@
 		C6DF49EE22C905740063DB36 /* MessagesContextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF49ED22C905740063DB36 /* MessagesContextTableViewCell.swift */; };
 		C6DF49F022C9177C0063DB36 /* MessegaesAddNewMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF49EF22C9177C0063DB36 /* MessegaesAddNewMessageCollectionViewCell.swift */; };
 		C6E7F08622C4FA3A009344FB /* RadiusUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E7F08522C4FA3A009344FB /* RadiusUIImageView.swift */; };
+		C6F6B66B22D3B2AD001C944D /* UserChatMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6B66A22D3B2AD001C944D /* UserChatMessageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +88,8 @@
 		B94F89B6B81D2AADAC734E32 /* Pods-Amigos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amigos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amigos/Pods-Amigos.release.xcconfig"; sourceTree = "<group>"; };
 		C64C139E22C430F100E62FA7 /* RoundedUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedUIImage.swift; sourceTree = "<group>"; };
 		C65F888E22C484F4002C134B /* HomeStoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		C664C98E22D230B400BF598F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		C664C99022D233B000BF598F /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
 		C678F91F22C333F8005F5CF0 /* Amigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amigos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C678F92222C333F8005F5CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C678F92422C333F8005F5CF0 /* StartPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageViewController.swift; sourceTree = "<group>"; };
@@ -100,13 +114,22 @@
 		C678F96722C385D6005F5CF0 /* RoundedColoredTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedColoredTextField.swift; sourceTree = "<group>"; };
 		C6842C7022CA4B3D00766E2A /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		C6842C7222CA4B7600766E2A /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		C69351A522D4D43400075AEA /* ChooseChatMembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseChatMembersViewController.swift; sourceTree = "<group>"; };
+		C69351A722D4D5AF00075AEA /* ChooseChatMembersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseChatMembersTableViewCell.swift; sourceTree = "<group>"; };
+		C69351A922D4FBE600075AEA /* UserFriendsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFriendsModel.swift; sourceTree = "<group>"; };
 		C69AE25422C394A6008A50CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6A522B222CE841200176C21 /* NotificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		C6A522B422CE845E00176C21 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		C6AE0DD622C92BE40024C47D /* HomeAddStoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAddStoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6B595F622D3BD8700E15AB5 /* TextViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewStyle.swift; sourceTree = "<group>"; };
 		C6B73AB722C5D6CF002C68B0 /* HomeTopButtonsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopButtonsTableViewCell.swift; sourceTree = "<group>"; };
 		C6B73AB922C5D9E8002C68B0 /* HomeCustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		C6B73ABB22C5DF60002C68B0 /* HomeSearchbarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchbarTableViewCell.swift; sourceTree = "<group>"; };
+		C6BD660C22D2CBE800F45285 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		C6BD660E22D2CE0A00F45285 /* UserChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChatViewController.swift; sourceTree = "<group>"; };
 		C6D7E88222C3A0EE006BF469 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C6D7E88422C3B9CF006BF469 /* SearchBarViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewStyle.swift; sourceTree = "<group>"; };
+		C6DE39D622D2498B00F99403 /* FirebaseRefrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRefrences.swift; sourceTree = "<group>"; };
 		C6DE49EB22C4B4000051E701 /* HomePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostTableViewCell.swift; sourceTree = "<group>"; };
 		C6DE49ED22C4B4BC0051E701 /* ShadowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowTableViewCell.swift; sourceTree = "<group>"; };
 		C6DF49E722C8FB7D0063DB36 /* MessegesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessegesViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +138,7 @@
 		C6DF49ED22C905740063DB36 /* MessagesContextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesContextTableViewCell.swift; sourceTree = "<group>"; };
 		C6DF49EF22C9177C0063DB36 /* MessegaesAddNewMessageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessegaesAddNewMessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		C6E7F08522C4FA3A009344FB /* RadiusUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusUIImageView.swift; sourceTree = "<group>"; };
+		C6F6B66A22D3B2AD001C944D /* UserChatMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChatMessageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,12 +264,15 @@
 			isa = PBXGroup;
 			children = (
 				C678F92422C333F8005F5CF0 /* StartPageViewController.swift */,
-				C678F95F22C358EA005F5CF0 /* LoginViewController.swift */,
 				C678F96122C35900005F5CF0 /* SignUpViewController.swift */,
+				C678F95F22C358EA005F5CF0 /* LoginViewController.swift */,
 				C678F96522C37FC4005F5CF0 /* ForgotPasswordViewController.swift */,
 				C6D7E88222C3A0EE006BF469 /* HomeViewController.swift */,
 				C6DF49E722C8FB7D0063DB36 /* MessegesViewController.swift */,
+				C69351A522D4D43400075AEA /* ChooseChatMembersViewController.swift */,
+				C6BD660E22D2CE0A00F45285 /* UserChatViewController.swift */,
 				C6842C7022CA4B3D00766E2A /* FriendsViewController.swift */,
+				C6A522B422CE845E00176C21 /* NotificationsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -253,6 +280,9 @@
 		C678F95522C33468005F5CF0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C664C98E22D230B400BF598F /* UserModel.swift */,
+				C69351A922D4FBE600075AEA /* UserFriendsModel.swift */,
+				C6BD660C22D2CBE800F45285 /* ChatModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -267,6 +297,7 @@
 				C64C139E22C430F100E62FA7 /* RoundedUIImage.swift */,
 				C6E7F08522C4FA3A009344FB /* RadiusUIImageView.swift */,
 				C6DE49ED22C4B4BC0051E701 /* ShadowTableViewCell.swift */,
+				C6B595F622D3BD8700E15AB5 /* TextViewStyle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -274,6 +305,7 @@
 		C678F95722C3348E005F5CF0 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				C6DE39D622D2498B00F99403 /* FirebaseRefrences.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -283,6 +315,7 @@
 			children = (
 				C678F95D22C357F2005F5CF0 /* UIControllerExtension.swift */,
 				C678F96322C35D0E005F5CF0 /* UIStoryBoardExtension.swift */,
+				C664C99022D233B000BF598F /* UIAlertControllerExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -301,6 +334,9 @@
 				C6DF49ED22C905740063DB36 /* MessagesContextTableViewCell.swift */,
 				C6DF49EF22C9177C0063DB36 /* MessegaesAddNewMessageCollectionViewCell.swift */,
 				C6842C7222CA4B7600766E2A /* FriendsTableViewCell.swift */,
+				C6A522B222CE841200176C21 /* NotificationsTableViewCell.swift */,
+				C6F6B66A22D3B2AD001C944D /* UserChatMessageTableViewCell.swift */,
+				C69351A722D4D5AF00075AEA /* ChooseChatMembersTableViewCell.swift */,
 			);
 			path = "View Cells";
 			sourceTree = "<group>";
@@ -490,14 +526,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Amigos/Pods-Amigos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,30 +577,42 @@
 				C6DF49EA22C8FE7D0063DB36 /* MessagesCollectionTableViewCell.swift in Sources */,
 				C6DF49E822C8FB7D0063DB36 /* MessegesViewController.swift in Sources */,
 				C678F96022C358EA005F5CF0 /* LoginViewController.swift in Sources */,
+				C6A522B522CE845E00176C21 /* NotificationsViewController.swift in Sources */,
 				C6B73AB822C5D6CF002C68B0 /* HomeTopButtonsTableViewCell.swift in Sources */,
 				C6842C7122CA4B3D00766E2A /* FriendsViewController.swift in Sources */,
 				C678F92522C333F8005F5CF0 /* StartPageViewController.swift in Sources */,
 				C6E7F08622C4FA3A009344FB /* RadiusUIImageView.swift in Sources */,
 				C678F96222C35900005F5CF0 /* SignUpViewController.swift in Sources */,
 				C678F96822C385D6005F5CF0 /* RoundedColoredTextField.swift in Sources */,
+				C6BD660D22D2CBE800F45285 /* ChatModel.swift in Sources */,
+				C69351AA22D4FBE600075AEA /* UserFriendsModel.swift in Sources */,
 				C678F92322C333F8005F5CF0 /* AppDelegate.swift in Sources */,
 				C64C139F22C430F100E62FA7 /* RoundedUIImage.swift in Sources */,
+				C6BD660F22D2CE0A00F45285 /* UserChatViewController.swift in Sources */,
 				C678F95C22C35286005F5CF0 /* RoundedView.swift in Sources */,
+				C6A522B322CE841200176C21 /* NotificationsTableViewCell.swift in Sources */,
 				C6DF49EC22C8FF3D0063DB36 /* MessagesOnlineUsersTableViewCell.swift in Sources */,
 				C6842C7322CA4B7600766E2A /* FriendsTableViewCell.swift in Sources */,
 				C678F96422C35D0E005F5CF0 /* UIStoryBoardExtension.swift in Sources */,
 				C6DF49EE22C905740063DB36 /* MessagesContextTableViewCell.swift in Sources */,
 				C6AE0DD722C92BE40024C47D /* HomeAddStoryCollectionViewCell.swift in Sources */,
 				C6DE49EE22C4B4BC0051E701 /* ShadowTableViewCell.swift in Sources */,
+				C69351A822D4D5AF00075AEA /* ChooseChatMembersTableViewCell.swift in Sources */,
 				C6DF49F022C9177C0063DB36 /* MessegaesAddNewMessageCollectionViewCell.swift in Sources */,
 				C6B73ABA22C5D9E8002C68B0 /* HomeCustomCollectionViewCell.swift in Sources */,
 				C6D7E88522C3B9CF006BF469 /* SearchBarViewStyle.swift in Sources */,
 				C6B73ABC22C5DF60002C68B0 /* HomeSearchbarTableViewCell.swift in Sources */,
 				C678F96622C37FC4005F5CF0 /* ForgotPasswordViewController.swift in Sources */,
+				C69351A622D4D43400075AEA /* ChooseChatMembersViewController.swift in Sources */,
 				C65F888F22C484F4002C134B /* HomeStoryCollectionViewCell.swift in Sources */,
+				C6DE39D722D2498B00F99403 /* FirebaseRefrences.swift in Sources */,
+				C664C98F22D230B400BF598F /* UserModel.swift in Sources */,
 				C678F95E22C357F2005F5CF0 /* UIControllerExtension.swift in Sources */,
 				C678F92B22C333F8005F5CF0 /* Amigos.xcdatamodeld in Sources */,
+				C6F6B66B22D3B2AD001C944D /* UserChatMessageTableViewCell.swift in Sources */,
+				C664C99122D233B000BF598F /* UIAlertControllerExtension.swift in Sources */,
 				C678F95A22C347E8005F5CF0 /* RoundedGradientButton.swift in Sources */,
+				C6B595F722D3BD8700E15AB5 /* TextViewStyle.swift in Sources */,
 				C6DE49EC22C4B4000051E701 /* HomePostTableViewCell.swift in Sources */,
 				C6D7E88322C3A0EE006BF469 /* HomeViewController.swift in Sources */,
 			);

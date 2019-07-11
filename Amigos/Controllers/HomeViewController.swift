@@ -42,9 +42,9 @@ class HomeViewController: UIViewController {
     private func setUpCollectionView() {
         
         layout.scrollDirection = .horizontal
-        let cellWidth = 80.0
-        let cellHeight = 100.0
-        layout.sectionInset = UIEdgeInsets(top: 20, left: 0, bottom: 10, right: 0)
+        let cellWidth = 80
+        let cellHeight = 75
+        layout.sectionInset = UIEdgeInsets(top: 10, left: 0, bottom: 10, right: 0)
         layout.itemSize = CGSize(width: cellWidth, height: cellHeight)
         layout.minimumInteritemSpacing = 0
         layout.minimumLineSpacing = 0
@@ -92,8 +92,8 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
             collectionView.collectionViewLayout = layout
             collectionView.contentInsetAdjustmentBehavior = .never
             
-            cell?.imageCell.image = stories[indexPath.row]
-            cell?.nameCell.text = "First lastName"
+            cell?.userImage.image = stories[indexPath.row]
+            cell?.userName.text = "First lastName"
             
             return cell!
         }

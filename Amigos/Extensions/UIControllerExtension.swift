@@ -64,4 +64,15 @@ extension UIViewController {
         }, completion: nil)
         
     }
+    
+    func timeStampToDate(timeStamp: Double) -> String {
+        
+        let date = Date(timeIntervalSince1970: timeStamp)
+        let dateFormatter = DateFormatter()
+        dateFormatter.timeZone = TimeZone(abbreviation: "GMT+2") //Set timezone that you want
+        dateFormatter.locale = NSLocale.current
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm" //Specify your format that you want
+        let strDate = dateFormatter.string(from: date)
+        return strDate
+    }
 }

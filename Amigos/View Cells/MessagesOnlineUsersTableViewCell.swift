@@ -10,8 +10,7 @@ import UIKit
 
 class MessagesOnlineUsersTableViewCell: UITableViewCell {
 
-    
-    @IBOutlet weak var onlineUserCell: UICollectionView!
+    @IBOutlet weak var onlineUser: UICollectionView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

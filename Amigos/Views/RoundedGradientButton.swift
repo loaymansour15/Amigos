@@ -55,4 +55,9 @@ class RoundedGradientButton: UIButton {
         self.layer.addSublayer((gradientLayer)!)
     }
     
+    func loadingTitle(title: String){
+        
+        self.setTitle(title, for: .normal)
+    }
+    
 }

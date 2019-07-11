@@ -10,7 +10,7 @@ import UIKit
 
 class MessagesCollectionTableViewCell: UICollectionViewCell {
 
-    @IBOutlet weak var imageCell: UIImageView!
-    @IBOutlet weak var userNameCell: UILabel!
+    @IBOutlet weak var userImage: UIImageView!
+    @IBOutlet weak var userName: UILabel!
     
 }
